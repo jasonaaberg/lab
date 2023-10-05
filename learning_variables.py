@@ -18,3 +18,16 @@ s6 = s4 + i1 + s5 + " Pancakes cost $" + str(n1) + " and waffles cost $" + str(n
 
 Breakfast = s6
 print(Breakfast)
+
+for x in range(1, 11):
+    print(x)
+
+name = "Jason"
+age = 42
+gpa = 3.8
+grad = True
+
+print(type(name))
+print(type(age))
+print(type(gpa))
+print(type(grad))
