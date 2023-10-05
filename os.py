@@ -1,3 +1,10 @@
 import os
+import datetime
 
-print(dir(os))
+# Variables
+date = datetime.datetime.now()
+file1 = open("logz.txt", "w")
+# End Variables
+
+file1.write(str(date))
+file1.close()
