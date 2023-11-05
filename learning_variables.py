@@ -28,3 +28,6 @@ gpa = 3.8
 grad = True
 
 print(f"{name} is {age} years old. His GPA is {gpa}. He is a graduate: {grad}.")
+
+if age > 40:
+    print("You are old.")
