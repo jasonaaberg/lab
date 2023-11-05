@@ -27,7 +27,4 @@ age = 42
 gpa = 3.8
 grad = True
 
-print(type(name))
-print(type(age))
-print(type(gpa))
-print(type(grad))
+print(f"{name} is {age} years old. His GPA is {gpa}. He is a graduate: {grad}.")
