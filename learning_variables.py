@@ -34,4 +34,4 @@ if age > 40:
 if gpa > 3.5 and age > 40:
     print("You are old and smart.")
 else:
-    print("You are dumb and still old.")
+    print("You are either dumb or old, or both.")
