@@ -31,3 +31,7 @@ print(f"{name} is {age} years old. His GPA is {gpa}. He is a graduate: {grad}.")
 
 if age > 40:
     print("You are old.")
+if gpa > 3.5 and age > 40:
+    print("You are old and smart.")
+else:
+    print("You are dumb and still old.")
