@@ -24,7 +24,7 @@ for x in range(1, 11):
 
 name = "Jason"
 age = 42
-gpa = 3.8
+gpa = 3.1
 grad = True
 
 print(f"{name} is {age} years old. His GPA is {gpa}. He is a graduate: {grad}.")
