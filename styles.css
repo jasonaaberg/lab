@@ -3,6 +3,17 @@
   grid-template-rows: 100px 100px 100px 100px 100px 100px;
   grid-template-columns: 100px 100px 100px 100px 100px 100px;
   grid-gap: 10px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid;
+  border-radius: 10px;
+  }
+
+  .h1 {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
   }
 
   .item-1 {
