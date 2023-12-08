@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import csv
 
 # Send a GET request to the website
-urls = ['https://noted.lol/', 'https://noted.lol/page/2/', 'https://noted.lol/page/3/', 'https://noted.lol/page/4/', 'https://noted.lol/page/5/']
+urls = ['https://noted.lol/', 'https://noted.lol/page/2/', 'https://noted.lol/page/3/']
 for url in urls:
     response = requests.get(url)
 
