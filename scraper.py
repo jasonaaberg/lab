@@ -3,8 +3,9 @@ from bs4 import BeautifulSoup
 import csv
 
 # Send a GET request to the website
-url = "https://noted.lol/"
-response = requests.get(url)
+urls = ['https://noted.lol/', 'https://noted.lol/page/2/', 'https://noted.lol/page/3/', 'https://noted.lol/page/4/', 'https://noted.lol/page/5/']
+for url in urls:
+    response = requests.get(url)
 
 # Create a BeautifulSoup object to parse the HTML content
 soup = BeautifulSoup(response.content, "html.parser")
