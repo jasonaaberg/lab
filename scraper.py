@@ -27,7 +27,7 @@ for article in articles:
     image_src = article.find("img")["src"]
     
     # Append the extracted information as a dictionary to the list
-    data.append({"Title": title, "URL": url, "Image Source": image_src})
+    data.append({"Title": title, "URL": 'https://noted.lol' + url, "Image Source": 'https://noted.lol' + image_src})
 
 # Create a CSV file and write the extracted information to it
 with open("articles.csv", "w", newline="") as csvfile:
