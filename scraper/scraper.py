@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import csv
 
 # Define the list of websites to scrape
-websites = ['https://noted.lol/', 'https://noted.lol/page/2/', 'https://noted.lol/page/3/']
+websites = ['https://brutalist.report/']
 
 # Create an empty list to store the extracted information
 data = []
@@ -31,7 +31,7 @@ for website in websites:
         image_src = article.find("img")["src"]
         
         # Append the extracted information as a dictionary to the list
-        data.append({"Title": title, "URL": 'https://noted.lol' + url, "Image Source": 'https://noted.lol' + image_src})
+        data.append({"Title": title, "URL": 'https://brutalist.report/' + url, "Image Source": 'https://brutalist.report/' + image_src})
 
 # Create a CSV file and write the extracted information to it
 with open("articles.csv", "w", newline="") as csvfile:
@@ -50,7 +50,7 @@ url = article.find("a")["href"]
 image_src = article.find("img")["src"]
     
     # Append the extracted information as a dictionary to the list
-data.append({"Title": title, "URL": 'https://noted.lol' + url, "Image Source": 'https://noted.lol' + image_src})
+data.append({"Title": title, "URL": 'https://brutalist.report/' + url, "Image Source": 'https://brutalist.report/' + image_src})
 
 # Create a CSV file and write the extracted information to it
 with open("articles.csv", "w", newline="") as csvfile:
